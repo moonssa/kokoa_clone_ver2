@@ -33,4 +33,41 @@
     padding: 15px;
     font-size: 14px;
     border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.message-row {
+    width: 100%;
+    display: flex;
+}
+
+.message-row img {
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    margin-right: 15px;
+}
+.message__author {
+
+    margin-bottom: 15px;
+    display:block;
+}
+.message__bubble {
+    background-color: white;
+    padding: 13px;
+    border-radius: 10px;
+    border-top-left-radius:0px;
+    font-size:18px;
+    margin-right: 5px ;
+}
+
+.message__info {
+    display: flex;
+    align-items: flex-end;
+}
+
+.message__time ,
+.message__author{
+    opacity: 0.8;
+    font-size: 13px;
 }
